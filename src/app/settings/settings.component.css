@@ -1,0 +1,47 @@
+.selection{
+  position: absolute;
+  top:30%;
+  left: 50%;
+}
+.controls{
+    position: relative;
+    top:50%;
+    left:50%;
+}
+button:nth-child(1)
+{
+    padding: 7px;
+    margin: 15px;
+}
+button:nth-child(2){
+    padding: auto;
+}
+.container-fluid{
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 30px;
+}
+select{
+    position: relative;
+    top:50%;
+    left:30%;
+    padding: 6px;
+}
+input[type="text"]{
+    position: relative;
+    top:50%;
+    left:30%;
+    padding: 3px 8px;
+    margin-top:40px ;
+}
+button{
+    position: relative;
+    top:50%;
+    left:30%;  
+    margin: 17px; 
+}
+a{
+    position: relative;
+    top:50%;
+    left:30%;
+}

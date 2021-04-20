@@ -1,0 +1,23 @@
+
+<div class="container-fluid">
+    <select id="mySelect" (change)="ondelete($event)">
+        <option></option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Mysore">Mysore</option>
+        <option value="New Delhi">New Delhi</option>
+        <option value="Hyderabad">Hydrabad</option>
+    </select>
+</div>
+
+<input type="text" #val class="city" /><br>
+<button class="btn btn-primary" (click)="onClick(val.value)">Add</button><br>
+
+<!--<button class="btn btn-primary" (click)="ondelete(val.value)">DELETE</button>
+-->
+
+
+
+<!--<button (click)="backHome()">BackToHomePage</button>-->
+
+<a routerLink="/">Back To Home</a>
